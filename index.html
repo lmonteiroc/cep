@@ -1,0 +1,24 @@
+<html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CEP | HOME</title>
+</head>
+    <!--PARA INSTALAR O BOOTSTRAP -> npm install bootstrap --save-->
+<body>
+<div class="container formulario-cor">
+<h1 class="cabecalho">Consulte seu CEP</h1>
+    <form class="formulario">
+        <div class="form-group"><label for="cep">CEP </label><input type="text" class="form-control" maxlength="9" id="cep"><small>00000-000</small></div><br>
+        <div class="form-group"><label for="logradouro">Logradouro</label><input type="text" class="form-control" id="logradouro"><small>Rua</small></div><br>
+        <div class="form-group"><label for="bairro"></label>Bairro<input type="text" class="form-control" id="bairro"><small>Bairro</small></div><br>
+        <div class="form-group"><label for="localidade"></label>Localidade<input type="text" class="form-control" id="localidade"><small>Cidade</small></div>
+        <div class="form-group"><label for="uf"></label>UF<input type="text" class="form-control" id="uf"><small>Estado</small></div>
+      <center><div class="btn">pesquisar</div></center>  
+    </form>
+</div>
+<script src="js/script.js"></script>
+
+</body></html>
